@@ -1735,3 +1735,61 @@ section,
 .services .service-card {
   min-height: 380px;
 }
+
+.tech-item {
+  padding: 1.5rem 1rem;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  cursor: default;
+  background-color: #1a2535;
+}
+
+.tech-item:hover {
+  border-color: var(--accent-color);
+  transform: translateY(-5px);
+  background-color: #1e2d42;
+}
+
+.tech-item i {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.tech-item p {
+  font-size: 0.85rem;
+  margin: 0;
+  color: var(--default-color);
+  font-weight: 500;
+}
+
+.tech-badge {
+  width: 48px;
+  height: 48px;
+  color: white;
+  font-weight: 800;
+  font-size: 0.7rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 0.75rem;
+}
+
+.tech-item svg {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 0.75rem;
+  display: block;
+}
+
+.tech-item i,
+.tech-item img,
+.tech-item svg {
+  width: 48px;
+  height: 48px;
+  display: block;
+  margin: 0 auto 0.75rem;
+  object-fit: contain;
+}
